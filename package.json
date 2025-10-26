@@ -1,19 +1,7 @@
 {
-  "name": "node-db-server",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-  "start": "PORT=5000 json-server --watch db.json"
-},
-
-
-
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "cross-env": "^10.1.0",
-    "json-server": "^1.0.0-beta.3"
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "json-server": "^1.0.0-beta.1"
   }
 }
