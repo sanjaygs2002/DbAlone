@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
 "scripts": {
-  "start": "json-server --watch db.json"
+  "start": "cross-env PORT=5000 json-server --watch db.json"
 },
 
 
